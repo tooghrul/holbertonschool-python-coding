@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module defines a Square class with a size attribute and an area method."""
+"""This module is a Square class with a size attribute and an area method."""
 
 
 class Square:
@@ -16,5 +16,4 @@ class Square:
 
     def area(self):
         """Return the area of the square."""
-        return self.__size ** 2
-
+        return self.__size **2
