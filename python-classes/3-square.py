@@ -20,12 +20,10 @@ class Square:
 
     @property
     def size(self):
-    """Retrieves size attribute"""
         return self.__size
 
     @size.setter
     def size(self, value):
-    """It makes sure that the value is integer and not negative"""
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
